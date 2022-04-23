@@ -16,7 +16,7 @@ export default function Info() {
         .then((data) => {
             setHouse(data)
         })
-    },[]);
+    },[id]);
 
     if(house === null){
         return <h1>Loading...</h1>

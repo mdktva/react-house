@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
 import Card from "../../components/card/Card";
-import Footer from "../../components/footer/Footer";
-import About_us from "../../components/about_us/About_us";
-import Info from '../../pages/info/Info'
+// import Footer from "../../components/footer/Footer";
+// import About_us from "../../components/about_us/About_us";
+// import Info from '../../pages/info/Info'
 
 // import Login from '../../pages/login/Login'
 
