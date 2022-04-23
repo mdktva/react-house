@@ -16,11 +16,12 @@ export default function Info() {
         .then((data) => {
             setHouse(data)
         })
-    }gitt);
+    },[]);
 
-    if(house===null){
+    if(house === null){
         return <h1>Loading...</h1>
     }
+
     return (
         <div className='container'>
             <img src = {house.image} alt=""/>
