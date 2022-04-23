@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom';
 
 export default function Info() {
     const {id} = useParams();
-    const [] = useState();
+    // const [] = useState();
     const [house, setHouse] = useState(null);
 
     useEffect(() => {
@@ -16,7 +16,7 @@ export default function Info() {
         .then((data) => {
             setHouse(data)
         })
-    }, []);
+    }gitt);
 
     if(house===null){
         return <h1>Loading...</h1>

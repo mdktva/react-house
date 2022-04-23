@@ -13,12 +13,12 @@ import { Contacts } from './pages/contacts/Contacts';
 // import { Ad } from './pages/ad/Ad';
 // import {Info} from './pages/info/Info'
 
-import Footer from './components/footer/Footer';
-import About_Us from './components/about_us/About_us';
+// import Footer from './components/footer/Footer';
+// import About_Us from './components/about_us/About_us';
 
 class App extends React.Component {
   render() {
-    const houses = []
+    // const houses = []
 
     return (
       <BrowserRouter>

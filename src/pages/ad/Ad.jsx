@@ -1,4 +1,4 @@
-import css from './Ad.module.css'
+// import css from './Ad.module.css'
 import { useState } from "react"
 import { useNavigate } from 'react-router-dom'
 
@@ -8,7 +8,7 @@ export default function Ad() {
     const [title, setTitle] = useState("")
     const [price, setPrice] = useState("")
     const [description, setDescription] = useState()
-    const [error, setError] = useState(false)
+    // const [error, setError] = useState(false)
     const navigate = useNavigate();
 
 
