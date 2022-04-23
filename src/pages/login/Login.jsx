@@ -2,8 +2,8 @@ import {useState} from "react"
 import {useNavigate} from "react-router-dom"
 import css from './Login.module.css';
 // import Ad from "../../pages/ad/Ad";
-// import { Link } from "react-router-dom"
-// import { UseNavigate} from "react-router-dom"
+import { Link } from "react-router-dom"
+import { UseNavigate} from "react-router-dom"
 
 
 export default function Login(){
