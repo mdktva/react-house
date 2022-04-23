@@ -1,0 +1,22 @@
+.main{
+    height: 50vh;
+    padding-top: 60px;
+}
+.login{
+    border-radius: 10px;
+    border: 3px solid hotpink;
+    width: 85px;
+    margin-left: 20px;
+}
+.close{
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 85px;
+    margin-left: 20px;
+    background-color: white;
+}
+.input{
+    width: 500px;
+    border-radius: 8px;
+    border: 2px solid lightgreen;
+}

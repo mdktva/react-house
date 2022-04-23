@@ -1,0 +1,23 @@
+.wrapper{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 90px;
+}
+.logo{
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+}
+.buttons{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

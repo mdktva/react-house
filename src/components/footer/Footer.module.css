@@ -1,0 +1,7 @@
+.main{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    color: dimgray;
+    color: white;
+}
